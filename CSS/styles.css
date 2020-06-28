@@ -18,21 +18,77 @@ body {
   color: #2196f3;
 }
 
-.page-header-adres a {
-  color: #757575;
-}
-
-/* Section title */
-.section-title {
-  color: #212121;
-}
-
 .page-header-adres a:hover,
 .page-header-adres a:focus {
   color: #2196f3;
 }
 
-/* Для svg пока не работает  */
-.customers-client a:hover {
-  color: #2196f3;
+.page-header-adres a {
+  color: #757575;
+}
+
+/* Hero */
+.hero-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* Оставить #ffffff после вставки подложки */
+  color: #ffffff;
+  color: #212121;
+}
+
+.hero-buton {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+
+/* Section title */
+.section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* Section 2 - Преймущества */
+.benefits-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.benefits-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }

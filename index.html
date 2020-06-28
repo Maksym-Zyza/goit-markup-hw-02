@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
     <link rel="stylesheet" href="./CSS/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="page-header">
@@ -38,18 +42,21 @@
     <main>
       <!-- Section 1 - Hero -->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+        <h1 class="hero-title">
+          Эффективные решения <br />
+          для вашего бизнеса
+        </h1>
+        <button class="hero-buton">Заказать услугу</button>
       </section>
 
-      <!-- Section 2 - Свойства Веб студии -->
+      <!-- Section 2 - Преймущества Веб студии -->
       <section class="section">
-        <h2>Свойства Веб студии</h2>
-        <ul>
+        <h2 class="section-title">Преймущества Веб студии</h2>
+        <ul class="benefits list">
           <li>
             <img src="./img/antenna_1.svg" alt="antenna" />
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="benefits-title">Внимание к деталям</h3>
+            <p class="benefits-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -57,8 +64,8 @@
 
           <li>
             <img src="./img/clock_1.svg" alt="clock" />
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="benefits-title">Пунктуальность</h3>
+            <p class="benefits-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -66,8 +73,8 @@
 
           <li>
             <img src="./img/diagram_1.svg" alt="diagram" />
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="benefits-title">Планирование</h3>
+            <p class="benefits-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -75,8 +82,8 @@
 
           <li>
             <img src="./img/astronaut_1.svg" alt="astronaut" />
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="benefits-title">Современные технологии</h3>
+            <p class="benefits-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -280,11 +287,17 @@
         <a href="/">
           <img src="./img/web-studio.svg" alt="Web Studio" />
         </a>
-        <ul>
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
-          <li>info@example.com</li>
-          <li>+38 099 111 11 11</li>
-        </ul>
+        <address>
+          <ul>
+            <li>
+              <a href="https://goo.gl/maps/XdUtzJVZAnosNTWN9"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li><a href="mailto:info@example.com">info@example.com</a></li>
+            <li><a href="tel:+380961111111">+38 099 111 11 11</a></li>
+          </ul>
+        </address>
       </div>
 
       <div>
