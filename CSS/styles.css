@@ -1,0 +1,12 @@
+body {
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: blue;
+}
+
+.page-header-adres a:hover,
+.page-header-adres a:focus {
+  color: blue;
+}
