@@ -22,8 +22,12 @@ body {
   color: var(--primary-text-color);
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -230,7 +234,6 @@ body {
 }
 
 /* Button and Form*/
-
 .buton {
   font-family: Roboto;
   font-style: normal;
@@ -246,11 +249,7 @@ body {
   border-color: var(--accent-color);
 }
 
-.buton.primary {
-  color: var(--light-text-color);
-  background-color: var(--accent-color);
-}
-
+/* Footer form */
 .footer-form {
   font-family: Roboto;
   font-style: normal;
