@@ -182,18 +182,42 @@ body {
   color: rgba(255, 255, 255, 0.4);
 }
 
-/* СТРАНИЦА - Portfolio */
-.portfolio-selection a {
-  text-decoration: none;
-  color: var(--primary-text-color);
+/* Button and Form*/
+.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--light-text-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
-.portfolio-selection a:hover,
-.portfolio-selection a:focus {
-  color: var(--light-text-color);
+/* Footer form */
+.footer-form {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
+
+/* СТРАНИЦА - Portfolio */
 
 .portfolio-selection {
+  text-align: center;
+}
+
+.selection-button {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -201,6 +225,18 @@ body {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.selection-button.primary {
+  color: var(--light-text-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.selection-button.secondary {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+  border-color: #f5f4fa;
 }
 
 .portfolio-works-title {
@@ -231,33 +267,4 @@ body {
   line-height: 28px;
   letter-spacing: 0.03em;
   color: var(--light-text-color);
-}
-
-/* Button and Form*/
-.buton {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--light-text-color);
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
-/* Footer form */
-.footer-form {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
