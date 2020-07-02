@@ -196,7 +196,12 @@ body {
   border-color: var(--accent-color);
 }
 
+.portfolio-works-link {
+  text-decoration: none;
+}
+
 .portfolio-works-title {
+  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
